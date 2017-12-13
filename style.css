@@ -13,21 +13,27 @@ body {
 #contactlink {
     font-size: 1.3em;
 }
-table {
+#skills {
+    margin-top: 200px;
+    margin-left: 200px;
+}
+#firsttable {
     border-collapse: collapse;
     width: 33%;
-    margin: 50;
+    margin-left: 200;
 }
-table, th {
+#firsttable, th {
     border: 1px solid black;
 }
-th {
+#firsttable, th {
     text-align: left;
     height: 35px;
     vertical-align: bottom;
 }
-td {
+#firsttable, .ft-td {
     border-bottom: 1px solid black;
+    text-align: left;
+    vertical-align: top;
 }
 tr:nth-child(even) {
     background-color: c77c4b;
@@ -52,6 +58,14 @@ p.funtitle {
     position: fixed;
     right: 50%;
     
+}
+.foodtable {
+    width: 50%;
+    margin-left: 33%;
+}
+.tdtext {
+    text-align: left;
+    vertical-align: top;    
 }
 #copyright {
     text-align: center;
