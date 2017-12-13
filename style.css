@@ -56,12 +56,13 @@ p.funtitle {
 }
 .coverphoto {
     position: fixed;
-    right: 50%;
+    left: 69%;
     
 }
 .foodtable {
     width: 50%;
     margin-left: 33%;
+    margin-bottom: 0;
 }
 .tdtext {
     text-align: left;
@@ -70,4 +71,13 @@ p.funtitle {
 #copyright {
     text-align: center;
     margin: 150px;
+}
+nav ul {
+    text-align: center;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20;
+    font-size: 1.25em;
 }
