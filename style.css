@@ -2,7 +2,16 @@ body {
     background-color: c1713c;
 }
 #me {
-    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 16;
+    font-size: 5em;
+    font-style: italic;
+    font-family: 'Times New Roman', Georgia, serif;    
+}
+#contactlink {
+    font-size: 1.3em;
 }
 table {
     border-collapse: collapse;
@@ -22,4 +31,29 @@ td {
 }
 tr:nth-child(even) {
     background-color: c77c4b;
+}
+p.funtitle {
+    color: red;
+    text-shadow: 1.5px -1.5px yellow;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font: 2.5em italic, bold, 'Times New Roman', Georgia, serif;
+}
+#ft-main {
+    text-indent: 35%;
+}
+#ft-2 {
+    text-indent: 20%;
+}
+#gif-1 {
+    z-index: -1;
+}
+.coverphoto {
+    position: fixed;
+    right: 50%;
+    
+}
+#copyright {
+    text-align: center;
+    margin: 150px;
 }
