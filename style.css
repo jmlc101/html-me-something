@@ -17,6 +17,10 @@ body {
     margin-top: 200px;
     margin-left: 200px;
 }
+#smiley {
+    margin-left: 400px;
+    font-style: italic;
+}
 #firsttable {
     border-collapse: collapse;
     width: 33%;
@@ -80,4 +84,10 @@ nav ul li {
     display: inline-block;
     margin-right: 20;
     font-size: 1.25em;
+}
+article {
+    margin-bottom: 125;
+}
+footer {
+    text-align: center;
 }
