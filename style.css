@@ -13,13 +13,21 @@ body {
 #contactlink {
     font-size: 1.3em;
 }
+section p {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
 #skills {
     margin-top: 200px;
     margin-left: 200px;
+    margin-bottom: 50px;
 }
 #smiley {
     margin-left: 400px;
     font-style: italic;
+    padding-bottom: 50;
 }
 #firsttable {
     border-collapse: collapse;
@@ -86,7 +94,7 @@ nav ul li {
     font-size: 1.25em;
 }
 article {
-    margin-bottom: 125;
+    margin-bottom: 200;
 }
 footer {
     text-align: center;
